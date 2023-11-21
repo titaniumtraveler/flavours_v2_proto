@@ -1,0 +1,15 @@
+[package]
+name = "flavours_v2_proto"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Prototype for flavours v2"
+readme = "README.md"
+repository = "https://github.com/titaniumtraveler/flavours_v2_proto"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+git2 = "0.18.1"
+serde = { version = "1.0.193", features = ["derive"] }
+url = { version = "2.4.1", features = ["serde"] }
