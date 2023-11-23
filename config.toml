@@ -1,0 +1,7 @@
+[schemes]
+t1 = "https://test"
+t2 = { source = "https://test", repo_type = "SourceList" }
+t3 = { source = "https://test", repo_type = { source_list = true } }
+
+[item.test]
+schema = "http://test"
